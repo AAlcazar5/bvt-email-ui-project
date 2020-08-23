@@ -1,0 +1,56 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+}
+
+container {
+  height: 100vh;
+  width: 100vh;
+}
+
+h5 {
+  margin: 10px 10px 20px 10px;
+}
+
+button {
+  margin: 10px 10px 50px 10px;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+}
+
+li {
+  margin: 5px 5px 5px 0px;
+}
+
+.one {
+  height: 100%;
+  width: 100%;
+  background-color: darkred !important;
+  color: white;
+}
+
+.two {
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+h5 {
+  margin: 10px 0px 10px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .one {
+    height: 60vh;
+  }
+
+  .two {
+    height: 50vh;
+  }
+}

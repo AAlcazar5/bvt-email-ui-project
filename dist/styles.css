@@ -2,6 +2,14 @@ html {
   height: 100vh;
 }
 
+#whole {
+  height: 100vh;
+}
+
+#wholeTwo {
+  height: 100vh;
+}
+
 body {
   height: 100vh;
 }
@@ -9,6 +17,15 @@ body {
 container {
   height: 100vh;
   width: 100vh;
+}
+
+#firstCol {
+  width: 98%;
+  margin-top: 20px;
+}
+
+#firstImg {
+  margin-right: 10px;
 }
 
 h5 {
@@ -25,8 +42,22 @@ ul.no-bullets {
   margin: 10px;
 }
 
+#bullets {
+  margin-bottom: 50px;
+}
+
+#inbox {
+  font-weight: bold;
+}
+
 li {
   margin: 5px 5px 5px 0px;
+}
+
+#secondCol {
+  width: 98%;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .one {
@@ -43,6 +74,79 @@ li {
 
 h5 {
   margin: 10px 0px 10px 0px;
+}
+
+#cardOne {
+  width: 98%;
+  background-color: whitesmoke;
+  border: none;
+}
+
+#smallOne {
+  float: right;
+}
+
+#cardTwo {
+  width: 98%;
+  background-color: white;
+}
+
+#smallTwo {
+  float: right;
+}
+
+#cardThree {
+  width: 98%;
+  background-color: whitesmoke;
+  border: none;
+}
+
+#smallThree {
+  float: right;
+}
+
+#colThree {
+  height: 100vh;
+  padding: 20px 85px 20px 85px;
+}
+
+#to {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+#nigerian {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#threeIcons {
+  float: right;
+  margin-right: 20px;
+}
+
+#bottomP {
+  margin-bottom: 50px;
+}
+
+#button {
+  float: right;
+  overflow: hidden;
+  margin-top: 110px;
+}
+
+#rectangle {
+  width: 97%;
+  height: 30%;
+  border: 1px solid #000;
+}
+
+#paperclip {
+  margin-top: 108px;
+  float: left;
+  width: 65%;
+  height: 30%;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 768px) {

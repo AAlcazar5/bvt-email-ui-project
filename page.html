@@ -15,13 +15,13 @@
 
 <body>
 
-    <div class="container-fluid" style="height: 100vh;">
-        <div class="row justify-content-md-center" style="height: 100vh;">
+    <div class="container-fluid" id="whole">
+        <div class="row justify-content-md-center" id="wholeTwo">
             <!-- First Column -->
             <div class="col col-md-2 one #full">
 
-                <div class="input-group flex-nowrap" style="width: 98%; margin-top: 20px;">
-                    <div style="margin-right: 10px;">
+                <div class="input-group flex-nowrap" id="firstCol">
+                    <div id="firstImg">
                         <span class="input-group-text" id="addon-wrapping">
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-image-alt"
                                 fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -35,8 +35,8 @@
                 </div>
 
                 <button type="button" class="btn btn-secondary">Compose</button>
-                <ul class="no-bullets" style="margin-bottom: 50px;">
-                    <li style="font-weight: bold;">Inbox (329)</li>
+                <ul class="no-bullets" id="bullets">
+                    <li id="inbox">Inbox (329)</li>
                     <li>Tagged</li>
                     <li>Important</li>
                     <li>Sent Mail</li>
@@ -50,7 +50,7 @@
             <!-- Second Column -->
             <div class="col-md-3 two">
                 <form class="form-inline">
-                    <div class="input-group flex-nowrap" style="width: 98%; margin-bottom: 40px; margin-top: 20px;">
+                    <div class="input-group flex-nowrap" id="secondCol">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="addon-wrapping">
                                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search"
@@ -68,28 +68,28 @@
 
                 </form>
 
-                <div class="card" style="width: 98%; background-color: rgb(245, 245, 245); border: none;">
+                <div class="card" id="cardOne">
                     <div class="card-body">
                         <b class="card-title">Jack</b>
-                        <small style="float: right;">9:04pm</small>
+                        <small id="smallOne">9:04pm</small>
                         <p class="card-text">Give me back my magic beans..</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 98%;" style="background-color: white;">
+                <div class="card" id="cardTwo">
                     <div class="card-body">
                         <div class="Title">
                             <b class="card-title">Nigerian Prince </b>
-                            <small style="float: right;">March 14, 2020</small>
+                            <small id="smallTwo">March 14, 2020</small>
                         </div>
                         <p class="card-text">Please send me money to..</p>
                     </div>
                 </div>
 
-                <div class="card" style="width: 98%; background-color: rgb(245, 245, 245); border: none;">
+                <div class="card" id="cardThree">
                     <div class="card-body">
                         <b class="card-title">Facebook</b>
-                        <small style="float: right;">January 6, 2020</small>
+                        <small id="smallThree">January 6, 2020</small>
                         <p class="card-text">We're not tracking you..</p>
                     </div>
                 </div>
@@ -97,16 +97,16 @@
             </div>
 
             <!-- Third Column -->
-            <div class="col col-md-7 three" style="height: 100vh; padding: 20px 85px 20px 85px;">
+            <div class="col col-md-7 three" id="colThree">
                 <div>
-                    <small style="margin-top: 20px; padding-bottom: 10px;">To: recipient@email.com</small>
+                    <small id="to">To: recipient@email.com</small>
                     <br>
                     <small>From: get_rich_quick@prince.com</small>
                 </div>
 
                 <div class="display-flex justify-content-between align-items-center">
-                    <span style="font-weight: bold; font-size: 20px;">Nigerian Prince</span>
-                    <span class="three-icons display-flex" style="float: right; margin-right: 20px;">
+                    <span id="nigerian">Nigerian Prince</span>
+                    <span class="three-icons display-flex" id="threeIcons">
 
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash-fill" fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg">
@@ -135,16 +135,14 @@
                     <p>Please give me money to pay a fee because I'm looking for the
                         next of kin to give a large inheritance to.</p>
                     <p>Wire the funds to as soon as possible to my paypal address, get_rich@quick.com</p>
-                    <p style="margin-bottom: 50px;">No I cannot give you any proof of
+                    <p id="bottomP">No I cannot give you any proof of
                         paperwork or anything to confirm that I will, in fact, reimburse you.</p>
 
                 </div>
 
 
-                <div style="width:97%; height:30%; border:1px solid #000;">
-                    <div class="paperclip"
-                        style="margin-top:108px; float: left; width: 65%; height: 30%; overflow: hidden;">
-
+                <div id="rectangle">
+                    <div id="paperclip">
                         <svg style="margin-top: 30px;" width="1em" height="1em" viewBox="0 0 16 16"
                             class="bi bi-paperclip" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -152,7 +150,7 @@
                         </svg>
                     </div>
 
-                    <div class="button" style="float: right; overflow: hidden; margin-top: 110px;">
+                    <div class="button" id="button">
                         <button type="button" class="btn btn-danger">Reply</button>
                     </div>
 
